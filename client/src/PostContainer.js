@@ -10,7 +10,7 @@ function PostContainer() {
   useEffect(() => {
     const getData = async () => {
       const response = await axios.get(
-        "https://instaclone-tenx.herokuapp.com/all"
+        "https://backendserver-ql7e.onrender.com/"
       );
       console.log(response.data);
       setData(response.data.reverse());

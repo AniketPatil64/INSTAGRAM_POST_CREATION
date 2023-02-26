@@ -53,7 +53,7 @@ function PostUpload() {
     data.append("file", file);
     console.log(data);
     const response = await axios.post(
-      "https://instaclone-tenx.herokuapp.com/create",
+      "https://backendserver-ql7e.onrender.com/create",
       data
     );
     navigate("/postview");
